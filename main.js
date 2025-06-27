@@ -5,7 +5,7 @@ const getInfo = () => {
   // Clear previous results
   container.innerHTML = "";
 
-  const url =  `http://localhost:3000/api/players?search=${input}`;
+  const url =  `https://ballora-backend.onrender.com/api/players?search=${input}`;
 
   // Add loading spinner
   const spinner = document.createElement('div');
